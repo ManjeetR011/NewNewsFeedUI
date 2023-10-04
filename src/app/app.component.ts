@@ -1,6 +1,6 @@
 import { Component,Inject,NgModule,OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { NewsApiService } from './my-news-AppService.service';
+import { NewsApiService } from './my-newsapp-service.service';
 
 @Component({
   selector: 'app-root',
