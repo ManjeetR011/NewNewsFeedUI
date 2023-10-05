@@ -15,6 +15,11 @@ import { NewsApiService } from './my-newsapp-service.service';
 import { CommonModule } from '@angular/common';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { FormsModule } from '@angular/forms';
+import { MatTableModule } from '@angular/material/table';
+import {MatPaginatorModule } from '@angular/material/paginator';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +39,11 @@ import { FormsModule } from '@angular/forms';
     MatListModule,
     CommonModule,
     NgxPaginationModule,
-    FormsModule
+    MatTableModule,
+    FormsModule,
+    MatPaginatorModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [NewsApiService],
   bootstrap: [AppComponent]
